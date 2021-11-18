@@ -1,0 +1,85 @@
+body{
+    im
+}
+.head{
+    border: solid 3px turquoise;
+    background-color: turquoise;
+    display: flex;
+    justify-content: center; 
+    font-family: Quicksand, sans-serif;
+ 
+    font-style: oblique;
+    letter-spacing: 0.214em;
+    /* align-items: center; */
+}
+
+.arrow{
+ 
+    border: thin grey 5px;
+    background-color: grey;
+    height: 10%;
+    width: 10%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  
+}
+ul{
+    font-size: 20px;
+}
+
+.pic1{
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    background-image: url(https://www.carlisleschools.org/common/pages/UserFile.aspx?fileId=701219);
+}
+
+.about{
+    font-family: Quicksand, sans-serif;
+    font-size: 2em;
+    text-align: center;
+    color: rgb(65,162,166);
+    text-transform: uppercase;
+    line-height: 1.4;
+    font-weight: 400 bold;
+    -webkit-font-smoothing: antialiased;
+    padding: 40px;
+    letter-spacing: 0.214em;
+   
+}
+.pic2{
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#head3{
+    font-family: Quicksand, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color:  black;
+    text-transform: uppercase;
+    line-height: 1.4;
+    font-weight: 700 bold;
+    -webkit-font-smoothing: antialiased;
+    padding: 20px;
+    letter-spacing: 0.214em; 
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.wording{
+    font-size: 16px;
+    font-weight: 400px;
+    font-family: Quicksand sans-serif;
+    color: rgb(94, 94, 94);
+    overflow-wrap: break-word;
+    letter-spacing: normal;
+    text-align: center;
+}
