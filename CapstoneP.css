@@ -1,3 +1,11 @@
+@media (max-width 1000px) {
+
+}
+
+@media (orientation: landscape) and (max-width: 500px) {
+    
+}
+
 body{
     im
 }
@@ -70,16 +78,76 @@ ul{
     padding: 20px;
     letter-spacing: 0.214em; 
     margin-bottom: 24px;
-    display: flex;
-    flex-direction: column;
+    
 }
 
 .wording{
-    font-size: 16px;
-    font-weight: 400px;
+    font-size: 35px;
+    font-weight: 100px;
     font-family: Quicksand sans-serif;
     color: rgb(94, 94, 94);
     overflow-wrap: break-word;
     letter-spacing: normal;
     text-align: center;
+    float: right;
+    font-style: oblique;
 }
+
+.wording2{
+    font-size: 30px;
+    font-weight: 10px;
+    font-family: Quicksand sans-serif;
+    color: rgb(94, 94, 94);
+    overflow-wrap: break-word;
+    letter-spacing: normal;
+    text-align: right;
+    font-style: oblique;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    /* background-color: lightcoral; */
+}
+
+.wording3{
+    /* background-color: lawngreen; */
+    font-style: oblique;
+    flex-direction: row;
+    margin: 0;
+    padding: 25px;
+    padding-top: 10px;
+
+}
+
+.container1{
+    background-color: rgb(92, 225, 230);
+    margin: 0;
+    padding: 0;
+    font-family: Quicksand, sans-serif;
+    font-style: oblique;
+    letter-spacing: 0.214em;
+
+    
+}
+.name{
+    background-color: rgb(92, 225, 230);
+    color: black;
+}
+
+.email{
+    background-color: rgb(92, 225, 230);
+    color: black;
+}
+
+.message{
+    background-color: rgb(92, 225, 230);
+    
+}
+
+.smallb{
+    background-color: rgb(92, 225, 230);
+    width: 10%;
+
+}
+
+
+
