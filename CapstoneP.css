@@ -6,9 +6,7 @@
     
 }
 
-body{
-    im
-}
+
 .head{
     border: solid 3px turquoise;
     background-color: turquoise;
@@ -63,9 +61,25 @@ ul{
     padding: 0;
     padding-top: 10px;
     display: flex;
-    justify-content: center;
+    width: 100%;
+    height: 400px;
+   
 }
 
+.pic2leftBox{
+    width: calc(50% - 50px);
+    height: 100%;
+    margin-left:50px;
+    background-image:url("https://img1.wsimg.com/isteam/stock/y6elrrw/:/rs=w:1200,h:600,cg:true,m/cr=w:1200,h:600") ;
+    background-size: cover;
+}
+.pic2rightBox{
+    width: calc(50% - 50px);
+    height: 100%;
+    margin-right:50px;
+    background-image:url("https://img1.wsimg.com/isteam/stock/yrz58ZB/:/cr=t:1.96%25,l:0%25,w:100%25,h:75%25/rs=w:1200,h:600,cg:true") ;
+    background-size: cover;
+}
 #head3{
     font-family: Quicksand, sans-serif;
     font-size: 16px;
@@ -82,6 +96,8 @@ ul{
 }
 
 .wording{
+    width:50%;
+    height:100%;
     font-size: 35px;
     font-weight: 100px;
     font-family: Quicksand sans-serif;
@@ -89,8 +105,27 @@ ul{
     overflow-wrap: break-word;
     letter-spacing: normal;
     text-align: center;
-    float: right;
     font-style: oblique;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 125px;
+
+}
+.anotherWording{
+    width:50%;
+    height:100%;
+    font-size: 35px;
+    font-weight: 100px;
+    font-family: Quicksand sans-serif;
+    color: rgb(94, 94, 94);
+    overflow-wrap: break-word;
+    letter-spacing: normal;
+    text-align: center;
+    font-style: oblique;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 100px;
+
 }
 
 .wording2{
@@ -120,14 +155,34 @@ ul{
 
 .container1{
     background-color: rgb(92, 225, 230);
-    margin: 0;
-    padding: 0;
-    font-family: Quicksand, sans-serif;
-    font-style: oblique;
-    letter-spacing: 0.214em;
-
-    
+    margin-left:  12.5%;
+    margin-right: 12.5%;
+    height: 600px;
+    display: flex;
 }
+.containerRightBox{
+    border: 2px dotted lawngreen;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+}
+
+.containerLeftBox{
+    border: 2px dotted lawngreen;
+    height: 70%;
+    width: 50%;
+    text-indent: 2px;
+    /* margin */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+
+}
+
+
+
 .name{
     background-color: rgb(92, 225, 230);
     color: black;
@@ -149,5 +204,55 @@ ul{
 
 }
 
+input{
+    border:none;
+    margin: 50px;
+}
+
+.inputdiv{
+    margin-top: 50px;
+
+}
+
+textarea{
+    height: 200px;
+    width: 500px;
+
+   
+
+}
+
+.button1{
+    width: 600px;
+    height: 70px;
+    background-color: rgb(92, 225, 230);
+    
+}
+
+.button1:hover{
+    color:white; 
+    background-color: black;
+}
+
+  .p1 {
+    height: 10%;
+    width: 50%;
+} 
+
+.p2{
+    height: 20%;
+    font-family: Quicksand, sans-serif;
+}
+
+h4{
+    border: chartreuse solid 2px;
+    width: auto;
+    height: auto;
+    font-family: sans-serif, Quicksand;
+}  
+#map1{
+    border: darkred solid 4px;
+    
 
 
+}
